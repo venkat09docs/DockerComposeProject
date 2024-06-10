@@ -48,18 +48,30 @@ Source Code
 #### Git Work Flow:
   - Workspace --> Staging (add) --> Local Repo (commit) --> Remote Repo (push)
 
-    git pull origin master
-    ls -l
-    git status
+    $ git pull origin master
+
+    $ ls -l
+
+    $ git status
+
     git add Dockerfile README2.md
+
     git status
+
     git add .
+
     git status
+
     git commit -m "Docker Compose project initial files created"
+
     git status
+
     git push origin master
+
       - GutHUb UN: venkat09docs
+      - 
       - GitHub Key: 
+      - 
         (Goto GitHub --> Profile Icon --> Settings --> Developer Settings --> Personal access tokens (classic))
         
 
