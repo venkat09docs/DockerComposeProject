@@ -1,4 +1,15 @@
 # DockerComposeProject
-Docker Compose Project
 
-Here we are going to add Docker Compose Application files
+### Remote Repo:
+  - Sign Up GitHub
+  - Sign in to GitHub
+  - Create New Repository in the GitHub - 'DockerComposeProject'
+
+### Go to Windows System:
+  - Install 'Git Bash' on windows
+  - Choose the directory 'E:\workspace\batch54'
+  - git clone https://github.com/accountid/DockerComposeProject.git
+  - go to 'DockerComposeProject' (cd DockerComposeProject)
+  - Open in VSC Editor
+
+
