@@ -1,6 +1,7 @@
 # syntax=docker/dockerfile:1
 # This image will be used to deploy the Flask Application
 # This is to test conflict from Dev1
+# This is to test conflicts from Dev2
 # Pull python 3.10 docker image
 FROM python:3.10-alpine
 WORKDIR /code
