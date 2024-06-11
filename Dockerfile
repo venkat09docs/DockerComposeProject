@@ -1,4 +1,5 @@
 # syntax=docker/dockerfile:1
+# This image will be used to deploy the Flask Application
 FROM python:3.10-alpine
 WORKDIR /code
 ENV FLASK_APP=app.py

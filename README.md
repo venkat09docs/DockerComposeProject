@@ -82,3 +82,7 @@ Step-1: Run the following command
     $ docker-compose up
 
 Step-2: Enter http://IPAddress:8000/ in a browser to see the application running.
+
+Step-3: Terminate the Application
+
+    $ docker-compose down
