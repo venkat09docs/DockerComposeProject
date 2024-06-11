@@ -1,4 +1,5 @@
 # syntax=docker/dockerfile:1
+# Pull python 3.10 docker image
 FROM python:3.10-alpine
 WORKDIR /code
 ENV FLASK_APP=app.py
