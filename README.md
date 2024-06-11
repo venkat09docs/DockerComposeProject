@@ -74,6 +74,27 @@ Source Code Repository:
       - 
         (Goto GitHub --> Profile Icon --> Settings --> Developer Settings --> Personal access tokens (classic))
         
+#### Git Merge Conflicts
+
+    $ git push origin master
+
+    $ git pull origin master
+
+    $ git mergetool
+
+    $ ls -l
+
+    $ cat Dockerfile
+
+    $ ll
+
+    $ rm Dockerfile.orig
+
+    $ git status
+
+    $ git commit -m "Conflict resolved"
+
+    $ git push origin master
 
 ## How you can build this project
 
