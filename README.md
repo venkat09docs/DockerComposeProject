@@ -1,5 +1,5 @@
 ## Version Controlling System (VCS):
-Source Code
+Source Code Repository:
   - Features:
     - Distribution
     - Tracking File History
@@ -54,19 +54,19 @@ Source Code
 
     $ git status
 
-    git add Dockerfile README2.md
+    $ git add Dockerfile README2.md
 
-    git status
+    $ git status
 
-    git add .
+    $ git add .
 
-    git status
+    $ git status
 
-    git commit -m "Docker Compose project initial files created"
+    $ git commit -m "Docker Compose project initial files created"
 
-    git status
+    $ git status
 
-    git push origin master
+    $ git push origin master
 
       - GutHUb UN: venkat09docs
       - 
