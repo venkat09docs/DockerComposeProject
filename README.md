@@ -96,6 +96,46 @@ Source Code Repository:
 
     $ git push origin master
 
+### Branching Directories:
+    - Development Branch
+      - Feature Branch
+    - Release Branch  
+    - Master / main branch (Prod)
+    - Tagging on master branch
+
+### Branching Activities:
+
+  1. Creating Branch
+      - master --> dev
+      - dev --> feature2
+      - dev --> feature1
+      - dev --> release1
+  
+    - Formula:
+      - src --> dest
+  
+  2. Committing to the specific Branch
+      - commit files to feature2 branch
+      - commit files to dev branch
+      - commit files to feature1 branch
+      - commit files to release1 branch (bug fixes)
+  
+  3. Merging Branches
+      Ex: 
+        feature1 -> dev
+        release1 -> master
+        release1 -> dev
+
+    - Formula:
+      - src --> dest
+
+  4. Tagging the release branch (master)
+      Ex: master branch
+
+    - Formula
+
+
+
 ## How you can build this project
 
 Step-1: Run the following command
