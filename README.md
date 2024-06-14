@@ -135,12 +135,23 @@ Source Code Repository:
 
     - Formula:
       - src --> dest
+      - $ git checkout dest
+      - $ git merge src_branch
+      - $ git push origin dest
 
   4. Tagging the release branch (master)
       Ex: master branch
 
     - Formula
+      $ git checkout master
+      $ git tag tag_name
+      $ git push origin tag_name
 
+  5. Deleting temporary branches
+      Ex: feature1
+
+      $ git branch -d feature1
+      $ git push origin :refs/heads/feature1
 
 
 ## How you can build this project
