@@ -113,12 +113,19 @@ Source Code Repository:
   
     - Formula:
       - src --> dest
+      - $ git checkout src_branch
+        $ git branch dest
   
   2. Committing to the specific Branch
       - commit files to feature2 branch
       - commit files to dev branch
       - commit files to feature1 branch
       - commit files to release1 branch (bug fixes)
+
+    - Formula:
+    - $ git checkout branch
+    - $ git commit -m "msg"
+    - $ git push origin branch
   
   3. Merging Branches
       Ex: 
